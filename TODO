@@ -2,7 +2,8 @@ TODO
 ====
 1. Do prikladu v dokumentaci pridat nejaky maly METS.
 2. Testy.
-3.
+3. Prejmenovat modul na METS::Parse::Simple.
+4.
 
 Applied
 =======
