@@ -26,9 +26,9 @@ sub new {
 
 # Parse XML data.
 sub parse {
-	my ($self, $xml_data) = @_;
-	my $xml_hr = XMLin($xml_data);
-	return $xml_hr;
+	my ($self, $mets_data) = @_;
+	my $mets_hr = XMLin($mets_data);
+	return $mets_hr;
 }
 
 1;
