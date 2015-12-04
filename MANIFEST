@@ -1,5 +1,7 @@
 Changes
 inc/Module/Install.pm
+inc/Module/Install/AuthorRequires.pm
+inc/Module/Install/AuthorTests.pm
 inc/Module/Install/Base.pm
 inc/Module/Install/Can.pm
 inc/Module/Install/Fetch.pm
@@ -13,7 +15,7 @@ MANIFEST			This list of files
 META.yml
 Parse.pm
 README
-t/METS-Parse/00-use.t
-t/METS-Parse/01-version.t
-t/METS-Parse/02-pod_coverage.t
-t/METS-Parse/03-pod.t
+t/METS-Parse/01-use.t
+t/METS-Parse/02-version.t
+xt/METS-Parse/01-pod_coverage.t
+xt/METS-Parse/02-pod.t
