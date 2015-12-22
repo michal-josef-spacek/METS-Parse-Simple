@@ -6,7 +6,7 @@ use warnings;
 
 # Modules.
 use Data::Printer;
-use METS::Parse;
+use METS::Parse::Simple;
 
 # Example METS data.
 my $mets_data <<'END';
@@ -14,7 +14,7 @@ TODO
 END
 
 # Object.
-my $obj = METS::Parse->new;
+my $obj = METS::Parse::Simple->new;
 
 # Parse.
 my $mets_hr = $obj->parse($mets_data);

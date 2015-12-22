@@ -2,7 +2,6 @@ TODO
 ====
 1. Do prikladu v dokumentaci pridat nejaky maly METS.
 2. Testy.
-3. Prejmenovat modul na METS::Parse::Simple.
 5. Do dokumentace dat stazeni METS se z webu a parse.
 6.
 
@@ -10,4 +9,7 @@ Applied
 =======
 4. Do dokumentace do prvniho prikladu dat METS soubor z argumentu. Az druhy bude
    s malym METS prikladem.
+OK [20151222] skim
+
+3. Prejmenovat modul na METS::Parse::Simple.
 OK [20151222] skim

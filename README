@@ -1,9 +1,9 @@
 NAME
-    METS::Parse - Class for METS parsing.
+    METS::Parse::Simple - Simple class for METS parsing.
 
 SYNOPSIS
-     use METS::Parse;
-     my $obj = METS::Parse->new;
+     use METS::Parse::Simple;
+     my $obj = METS::Parse::Simple->new;
      my $mets_hr = $obj->parse($mets_data);
 
 METHODS
@@ -26,7 +26,7 @@ EXAMPLE1
 
      # Modules.
      use Data::Printer;
-     use METS::Parse;
+     use METS::Parse::Simple;
      use Perl6::Slurp qw(slurp);
 
      # Arguments.
@@ -40,7 +40,7 @@ EXAMPLE1
      my $mets_data = slurp($mets_file);
 
      # Object.
-     my $obj = METS::Parse->new;
+     my $obj = METS::Parse::Simple->new;
 
      # Parse data.
      my $mets_hr = $obj->parse($mets_data);
@@ -58,7 +58,7 @@ EXAMPLE2
 
      # Modules.
      use Data::Printer;
-     use METS::Parse;
+     use METS::Parse::Simple;
 
      # Example METS data.
      my $mets_data <<'END';
@@ -66,7 +66,7 @@ EXAMPLE2
      END
 
      # Object.
-     my $obj = METS::Parse->new;
+     my $obj = METS::Parse::Simple->new;
 
      # Parse.
      my $mets_hr = $obj->parse($mets_data);
@@ -81,7 +81,7 @@ DEPENDENCIES
     Class::Utils, XML::Simple.
 
 REPOSITORY
-    <https://github.com/tupinek/METS-Parse>
+    <https://github.com/tupinek/METS-Parse-Simple>
 
 AUTHOR
     Michal Špaček <mailto:skim@cpan.org>

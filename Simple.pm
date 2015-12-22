@@ -1,4 +1,4 @@
-package METS::Parse;
+package METS::Parse::Simple;
 
 # Pragmas.
 use strict;
@@ -41,12 +41,12 @@ __END__
 
 =head1 NAME
 
-METS::Parse - Class for METS parsing.
+METS::Parse::Simple - Simple class for METS parsing.
 
 =head1 SYNOPSIS
 
- use METS::Parse;
- my $obj = METS::Parse->new;
+ use METS::Parse::Simple;
+ my $obj = METS::Parse::Simple->new;
  my $mets_hr = $obj->parse($mets_data);
 
 =head1 METHODS
@@ -78,7 +78,7 @@ METS::Parse - Class for METS parsing.
 
  # Modules.
  use Data::Printer;
- use METS::Parse;
+ use METS::Parse::Simple;
  use Perl6::Slurp qw(slurp);
 
  # Arguments.
@@ -92,7 +92,7 @@ METS::Parse - Class for METS parsing.
  my $mets_data = slurp($mets_file);
 
  # Object.
- my $obj = METS::Parse->new;
+ my $obj = METS::Parse::Simple->new;
 
  # Parse data.
  my $mets_hr = $obj->parse($mets_data);
@@ -111,7 +111,7 @@ METS::Parse - Class for METS parsing.
 
  # Modules.
  use Data::Printer;
- use METS::Parse;
+ use METS::Parse::Simple;
 
  # Example METS data.
  my $mets_data <<'END';
@@ -119,7 +119,7 @@ METS::Parse - Class for METS parsing.
  END
 
  # Object.
- my $obj = METS::Parse->new;
+ my $obj = METS::Parse::Simple->new;
 
  # Parse.
  my $mets_hr = $obj->parse($mets_data);
@@ -137,7 +137,7 @@ L<XML::Simple>.
 
 =head1 REPOSITORY
 
-L<https://github.com/tupinek/METS-Parse>
+L<https://github.com/tupinek/METS-Parse-Simple>
 
 =head1 AUTHOR
 

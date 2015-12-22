@@ -6,7 +6,7 @@ use warnings;
 
 # Modules.
 use Data::Printer;
-use METS::Parse;
+use METS::Parse::Simple;
 use Perl6::Slurp qw(slurp);
 
 # Arguments.
@@ -20,7 +20,7 @@ my $mets_file = $ARGV[0];
 my $mets_data = slurp($mets_file);
 
 # Object.
-my $obj = METS::Parse->new;
+my $obj = METS::Parse::Simple->new;
 
 # Parse data.
 my $mets_hr = $obj->parse($mets_data);

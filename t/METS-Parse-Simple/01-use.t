@@ -9,8 +9,8 @@ use Test::NoWarnings;
 BEGIN {
 
 	# Test.
-	use_ok('METS::Parse');
+	use_ok('METS::Parse::Simple');
 }
 
 # Test.
-require_ok('METS::Parse');
+require_ok('METS::Parse::Simple');
