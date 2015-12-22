@@ -59,7 +59,7 @@ METS::Parse - Class for METS parsing.
 
 =item C<parse($mets_data)>
 
- Parse XML data via XML::Simple::XMLin().
+ Parse METS XML data via XML::Simple::XMLin().
  Returns hash reference to structure.
 
 =back
