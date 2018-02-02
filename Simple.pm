@@ -1,14 +1,11 @@
 package METS::Parse::Simple;
 
-# Pragmas.
 use strict;
 use warnings;
 
-# Modules.
 use Class::Utils qw(set_params);
 use XML::Simple;
 
-# Version.
 our $VERSION = 0.01;
 
 # Constructor.
@@ -72,16 +69,13 @@ METS::Parse::Simple - Simple class for METS parsing.
 
 =head1 EXAMPLE1
 
- # Pragmas.
  use strict;
  use warnings;
 
- # Modules.
  use Data::Printer;
  use METS::Parse::Simple;
  use Perl6::Slurp qw(slurp);
 
- # Arguments.
  if (@ARGV < 1) {
          print STDERR "Usage: $0 mets_file\n";
          exit 1;
@@ -105,11 +99,9 @@ METS::Parse::Simple - Simple class for METS parsing.
 
 =head1 EXAMPLE2
 
- # Pragmas.
  use strict;
  use warnings;
 
- # Modules.
  use Data::Printer;
  use METS::Parse::Simple;
 

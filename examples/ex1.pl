@@ -1,15 +1,12 @@
 #!/usr/bin/env perl
 
-# Pragmas.
 use strict;
 use warnings;
 
-# Modules.
 use Data::Printer;
 use METS::Parse::Simple;
 use Perl6::Slurp qw(slurp);
 
-# Arguments.
 if (@ARGV < 1) {
         print STDERR "Usage: $0 mets_file\n";
         exit 1;
