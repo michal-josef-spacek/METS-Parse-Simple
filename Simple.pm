@@ -43,6 +43,7 @@ METS::Parse::Simple - Simple class for METS parsing.
 =head1 SYNOPSIS
 
  use METS::Parse::Simple;
+
  my $obj = METS::Parse::Simple->new;
  my $mets_hr = $obj->parse($mets_data);
 
