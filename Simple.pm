@@ -6,7 +6,7 @@ use warnings;
 use Class::Utils qw(set_params);
 use XML::Simple;
 
-our $VERSION = 0.01;
+our $VERSION = 0.02;
 
 # Constructor.
 sub new {
@@ -235,6 +235,6 @@ L<http://skim.cz>
 
 =head1 VERSION
 
-0.01
+0.02
 
 =cut
