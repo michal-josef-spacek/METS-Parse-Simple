@@ -130,7 +130,7 @@ L<XML::Simple>.
 
 =head1 REPOSITORY
 
-L<https://github.com/tupinek/METS-Parse-Simple>
+L<https://github.com/michal-josef-spacek/METS-Parse-Simple>
 
 =head1 AUTHOR
 

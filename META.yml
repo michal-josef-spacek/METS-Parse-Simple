@@ -28,7 +28,7 @@ requires:
   perl: 5.6.0
 resources:
   bugtracker: https://rt.cpan.org/Public/Dist/Display.html?Name=METS-Parse-Simple
-  homepage: https://github.com/tupinek/METS-Parse-Simple
+  homepage: https://github.com/michal-josef-spacek/METS-Parse-Simple
   license: http://opensource.org/licenses/bsd-license.php
-  repository: git://github.com/tupinek/METS-Parse-Simple
+  repository: git://github.com/michal-josef-spacek/METS-Parse-Simple
 version: '0.01'
